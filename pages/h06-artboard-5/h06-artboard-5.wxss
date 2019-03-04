@@ -1,0 +1,84 @@
+/* pages/h06-artboard-5/h06-artboard-5.wxss */
+view,text{
+	box-sizing:border-box;
+}
+.grey-bg{background:#e8e8e8;}
+.pull-left{float:left!important;}
+.pull-right{float:right!important;}
+.clearfix{clear:both;overflow:hidden;}
+.list-his{width:50%;background:#fff;}
+.man-list1{position:relative;}
+.man-list1 image{width:375rpx;height:375rpx;}
+.man-list1 .x-dis{
+	position:absolute;
+	height:50rpx;
+	width:50rpx;
+	bottom:20rpx;
+	right:20rpx;
+}
+.history-pic{
+	font-size:104rpx;
+	color:#d0cfcf;
+	padding-left:36rpx;
+	background:#fff;
+}
+.list-zan{
+	width:50%;
+	text-align:center;
+	line-height:38rpx;
+  margin-bottom:45rpx;
+}
+.list-batch{
+	width:50%;
+	text-align:center;
+	line-height:38rpx;
+  margin-bottom:45rpx;
+}
+.left-zan image{
+	height:26rpx;
+	width:26rpx;
+}
+.left-zan span{
+	color:#000000;
+	font-size:24rpx;
+	padding-left:22rpx;
+	letter-spacing:0;
+}
+.list-form{
+	text-align:center;
+	width:100%;
+}
+.list-form button{
+	background:#f8fbed;
+	margin:20rpx 0;
+	outline:none;
+	line-height:38rpx;
+	font-size:20rpx;
+	color:#6a6a6a;
+	width:45%;
+	border:1rpx solid #badbaa;
+}
+.history-lis{
+	background:#fff;
+	border-bottom:1rpx solid #e4e4e4;
+}
+.bot-but button{
+	width:72%;
+	background:#dc4b1a;
+	color:#fff;
+	font-size:24rpx;
+	line-height:60rpx;
+	border:none;
+	outline:none;
+	border-radius:10rpx;
+}
+.bot-but{
+	width:100%;
+	position:fixed;
+	bottom:0;
+	text-align:center;
+	padding:20rpx 0;
+	background:#f2f2f2;
+	opacity:0.8;
+	filter:alpha(opacity=80);
+}

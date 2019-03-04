@@ -1,0 +1,9 @@
+<!--pages/bind/bind.wxml-->
+<view class='big-bg'>
+  <view class='bind-title'>
+      <text class=''>请关注我们的公众号“潮玩身材觉醒”</text>
+  </view>
+  <view class='bind-ewm'>
+    <image src='../../images/ewm.jpg'></image>
+  </view>
+</view>

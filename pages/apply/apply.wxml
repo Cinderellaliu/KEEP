@@ -1,0 +1,816 @@
+<!-- pages/apply/apply.wxml -->
+<view class="apply">
+  <view class='apply-top'>
+    <view class="apply-title">
+      <navigator url="#" ><image src="../../images/apply_logo.png"></image></navigator>
+      <text>申请新课程</text>
+    </view>
+    <view class="apply-wait">
+      <text>时间待定</text>
+      <text>时间待定</text>
+      <text class="show">时间待定</text>
+      <text>时间待定</text>
+      <text>时间待定</text>
+      <text>时间待定</text>
+      <text>时间待定</text>
+    </view>
+  </view>
+  <view  class="apply-wrap" bindtouchmove="handletouchmove" bindtouchstart="handletouchtart" bindtouchend="handletouchend">
+    <view class="apply-content">
+      <view class="apply-time" style="{{timeStyle}}">
+        <text>05:00</text>
+        <text>06:00</text>
+        <text>07:00</text>
+        <text>08:00</text>
+        <text>09:00</text>
+        <text>10:00</text>
+        <text>11:00</text>
+        <text>12:00</text>
+        <text>13:00</text>
+        <text>14:00</text>
+        <text>15:00</text>
+        <text>16:00</text>
+        <text>17:00</text>
+        <text>18:00</text>
+        <text>19:00</text>
+        <text>20:00</text>
+        <text>21:00</text>
+      </view>
+      <view class="apply-data" style="{{dataStyle}}">
+        <swiper bindchange="swiperChange" style="{{swiperStyle}}">
+          <swiper-item>      
+            <view class="apply-table" style="{{tableStyle}}">
+              <!-- 05:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#" ><text class="finish">完成课程</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 06:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#"><text class="my">我的课程</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 07:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 08:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="/pages/affirm/affirm"><text class="add">课程申请</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+              </view>
+              <!-- 09:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 10:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 11:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 12:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 13:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 14:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 15:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 16:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 17:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 18:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view> 
+              <!-- 19:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 20:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>  
+              <!-- 21:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>         
+            </view>
+            <view class="apply-week" style="{{weekStyle}}">
+              <view class="day">
+                <text class="num">09</text>
+                <text class="txt">周一</text>
+              </view>
+              <view class="day active">
+                <text class="num">10</text>
+                <text class="txt">周二</text>
+              </view>
+              <view class="day">
+                <text class="num">11</text>
+                <text class="txt">周三</text>
+              </view>
+              <view class="day">
+                <text class="num">12</text>
+                <text class="txt">周四</text>
+              </view>
+              <view class="day">
+                <text class="num">13</text>
+                <text class="txt">周五</text>
+              </view>
+              <view class="day">
+                <text class="num">14</text>
+                <text class="txt">周六</text>
+              </view>
+              <view class="day">
+                <text class="num">15</text>
+                <text class="txt">周日</text>
+              </view>
+            </view>
+          </swiper-item>
+          <swiper-item>
+            <view class="apply-table">
+              <!-- 05:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#"><text class="finish">完成课程</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 06:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#"><text class="my">我的课程</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 07:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 08:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="/pages/affirm/affirm"><text class="add">课程申请</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+              </view>
+              <!-- 09:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 10:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 11:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td">
+                  <navigator url="#"><text class="already">已安排</text></navigator>
+                </view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 12:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"><navigator url="#"><text class="already">已安排</text></navigator></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 13:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 14:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 15:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 16:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 17:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 18:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view> 
+              <!-- 19:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <!-- 20:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>  
+              <!-- 21:00 -->
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>
+              <view class="tr">
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+                <view class="td"></view>
+              </view>         
+            </view>
+            <view class="apply-week" style="{{weekStyle}}">
+              <view class="day">
+                <text class="num">16</text>
+                <text class="txt">周一</text>
+              </view>
+              <view class="day active">
+                <text class="num">17</text>
+                <text class="txt">周二</text>
+              </view>
+              <view class="day">
+                <text class="num">18</text>
+                <text class="txt">周三</text>
+              </view>
+              <view class="day">
+                <text class="num">19</text>
+                <text class="txt">周四</text>
+              </view>
+              <view class="day">
+                <text class="num">20</text>
+                <text class="txt">周五</text>
+              </view>
+              <view class="day">
+                <text class="num">21</text>
+                <text class="txt">周六</text>
+              </view>
+              <view class="day">
+                <text class="num">22</text>
+                <text class="txt">周日</text>
+              </view>
+            </view>
+          </swiper-item>
+        </swiper>
+      </view>
+      <view class="apply-month">
+        <text>07月</text>
+      </view>
+      <view class="apply-week-fix" style="{{fixWeekStyle}}">
+          <view class="day">
+            <text class="num">09</text>
+            <text class="txt">周一</text>
+          </view>
+          <view class="day active">
+            <text class="num">10</text>
+            <text class="txt">周二</text>
+          </view>
+          <view class="day">
+            <text class="num">11</text>
+            <text class="txt">周三</text>
+          </view>
+          <view class="day">
+            <text class="num">12</text>
+            <text class="txt">周四</text>
+          </view>
+          <view class="day">
+            <text class="num">13</text>
+            <text class="txt">周五</text>
+          </view>
+          <view class="day">
+            <text class="num">14</text>
+            <text class="txt">周六</text>
+          </view>
+          <view class="day">
+            <text class="num">15</text>
+            <text class="txt">周日</text>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

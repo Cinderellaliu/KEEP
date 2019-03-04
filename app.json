@@ -1,0 +1,29 @@
+{
+  "pages":[
+  		"pages/index/index",
+  		"pages/logs/logs",
+  		"pages/affirm/affirm",
+  		"pages/apply/apply",
+  		"pages/h06-artboard/h06-artboard",
+  		"pages/h06-artboard-2/h06-artboard-2",
+  		"pages/h06-artboard-3/h06-artboard-3",
+  		"pages/h06-artboard-4/h06-artboard-4",
+  		"pages/h06-artboard-5/h06-artboard-5",
+  		"pages/h03h05-inviting-members/h03h05-inviting-members",
+  		"pages/h03h05-inviting-members01/h03h05-inviting-members01",
+  		"pages/h03h05-inviting-members02/h03h05-inviting-members02",
+  		"pages/bind/bind",
+  		"pages/bind01/bind01",
+  		"pages/bind02/bind02",
+  		"pages/lesson_plan/lesson_plan",
+  		"pages/lesson_share/lesson_share",
+  		"pages/settle/settle"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "debug": true
+}

@@ -1,0 +1,29 @@
+<!--pages/settle/settle.wxml-->
+<view class="affirm">
+  <view class='affirm-wrap'>
+    <view class='affirm-top'>
+      <navigator url="#" class="affirm-title">
+        <text class="txt">您的私人教练任同政</text>
+        <view class="go">
+          <text>121张</text>
+          <image src="../../images/affirm_go.png"></image>
+        </view>
+      </navigator>
+      <view class="affirm-icons">
+        <view class="affirm-icon">
+          <image src="../../images/affirm_icon01.png"></image>
+          <text class="txt">给你个赞</text>
+          <text class="num">231</text>
+        </view>
+        <view class="affirm-icon">
+          <image src="../../images/affirm_icon02.png"></image>
+          <text class="txt">求换头像</text>
+          <text class="num">103</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="settle-new">
+    <navigator url='../apply/apply'><text>申请新课程</text></navigator>
+  </view>
+</view>

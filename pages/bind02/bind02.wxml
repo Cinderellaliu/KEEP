@@ -1,0 +1,24 @@
+<!--pages/bind01/bind01.wxml-->
+<view class='coach-bg'>
+  <image src='../../images/coach01.png'></image>
+  <view class='border-right'>
+    <view class='right-box'>
+       
+    </view>
+  </view>
+  <view class='coach-img-box'>
+    <view class='coach-box'>
+      <image src='../../images/coach-img.png'></image>
+      <view class='info'>
+        <text>教练任同政需要您的验证信息</text>
+      </view>
+    </view>
+  </view>
+  <view class='coach-content'>
+    <view class='inp-box'>
+      <view class='inp-border'></view>
+      <input type='text' class='coach-number' value='我是' placeholder-style='color:#FAB3A0' />
+    </view>
+    <button class='search-btn'>发送我的验证信息</button>
+  </view>
+</view>

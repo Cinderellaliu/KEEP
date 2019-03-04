@@ -1,0 +1,123 @@
+/* pages/h06-artboard-3/h06-artboard-3.wxss */
+view,text{
+	box-sizing:border-box;
+}
+.grey-bg{background:#e8e8e8;}
+.pull-left{float:left!important;}
+.pull-right{float:right!important;}
+.clearfix{clear:both;overflow:hidden;}
+.change-pic-top{
+  height:750rpx;
+  }
+.change-pic-top image{
+  width:750rpx;
+  height:100%;
+}
+.modify span{
+	width:750rpx;
+	height:84rpx;
+	background:#fff;
+	color:#0478ff;
+	text-align:center;
+	font-size:34rpx;
+	line-height:84rpx;
+  border-radius:none;
+ 	border:1rpx solid #dbdada;
+  border-left:none;
+  border-right:none;
+  
+}
+.infor-my{
+	line-height:88rpx;
+	border-bottom:1rpx solid #dcdcdc;
+	padding:0 26rpx;
+	background:#fff;
+}
+.infor-my .name-my{
+	font-size:34rpx;
+	color:#030303;
+}
+.infor-my .oh-my{
+	font-size:34rpx;
+	color:#0076ff;
+  text-align:right;
+}
+.infor-my .oh-my input{
+  height:88rpx;
+}
+.infor-my .oh-my.dis-my{
+	color:#030303;
+}
+.infor-mar{
+  margin-top:48rpx;
+}
+.infor-my .binding{
+  color:#417505;
+  width:120rpx;
+  font-size:28rpx;
+  margin-left:44rpx;
+  background:#dce9cd;
+  border-radius:14rpx;
+  height:40rpx;
+  margin-top:24rpx;
+  line-height:40rpx;
+  text-align:center;
+}
+.infor-my .color-blue{
+  color:#0076FF;
+}
+.infor-my .dif-width{
+  width:calc(50% - 24rpx);
+  padding-right:24rpx;
+}
+.infor-my .go-right{
+  width:24rpx;
+  height:30rpx;
+  margin-top:30rpx;
+}
+.oh-my i{
+  color:#e4707f;
+  }
+  .have-mar-bottom{
+    margin-bottom:48rpx;
+  }
+.bottom-section{
+  position:fixed;
+  bottom:0;
+  left:0;
+  z-index:999999;
+  height:100rpx;
+  width:100%;
+  background:#f6f6f6;
+  border-top:1rpx solid #d7d7d7;}
+.bottom-section>a{
+  float:left;
+  width:calc(100% / 2);
+  text-align:center;
+  position:relative;
+  }
+.bottom-section>a>p{
+  font-size:20rpx;
+  color:#bababa;
+  }
+.bottom-section>a.active>p{
+  color:#3A3A3A;
+  }
+.bottom-section>a>span{
+  display:block;
+  height:34rpx;
+  margin-top:16rpx;
+  }
+  .mian-content01{
+    padding-bottom:100rpx;
+  }
+  .bottom-section>a>span>image{
+    width:32rpx;
+    height:34rpx
+  }
+  .undo button{
+    color:#FF0000;
+    font-size:34rpx;
+    padding:0;
+    background:#fff;
+  }

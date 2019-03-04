@@ -1,0 +1,35 @@
+<!--pages/h06-artboard/h06-artboard.wxml-->
+<view class="change-pic grey-bg clearfix">
+	<view class="change-pic-top pull-left">
+	  	<image src="../../images/smile_man.png"></image>
+	</view>
+	<view class="modify clearfix">
+		<navigator url='../h06-artboard-5/h06-artboard-5'><span class="pull-left">修改头像</span></navigator>
+	</view>	
+	<view class="infor-my infor-mar clearfix">
+        <span class="name-my pull-left">姓名</span>
+        <span class="oh-my pull-right"><input type="text" value="任同政" />
+        </span>
+    </view>
+    <view class="infor-my clearfix">
+        <span class="name-my pull-left">性别</span>
+        <span class="oh-my dis-my pull-right">
+        	<input type="text" value="男" />
+        </span>
+    </view>
+    <view class="infor-my infor-mar clearfix">
+        <span class="name-my pull-left">手机号码</span>
+        <span class="binding pull-left">已绑定</span>
+        <span class="oh-my dis-my pull-right">
+        	<input type="text" value="18601357693" />
+        </span>
+    </view>
+    <view class="infor-my clearfix">
+        <span class="name-my color-blue pull-left">增加手机号码...</span>
+    </view>
+</view>
+<view class="bottom-section clearfix">
+    <navigator url="../h06-artboard-2/h06-artboard-2"><span><image src="../../images/bottom_icon01.png"></image></span><p>课程安排</p></navigator>
+    <navigator class="active"><span><image src="../../images/bottom_color02.png"></image></span><p>我</p></navigator>
+</view>
+

@@ -1,0 +1,73 @@
+/* pages/bind01/bind01.wxss */
+page{
+  background: #000;
+}
+.coach-bg{
+  position: relative;
+  z-index: 1;
+}
+.coach-bg image{
+  width: 100%;
+  height: 1154rpx;
+  
+}
+.border-right{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 512rpx;
+  height: 1154rpx;
+  border-left: 2px solid #000000;
+  box-sizing:border-box;
+}
+.right-box{
+  height: 1154rpx;
+  width: 512rpx;
+  background:rgba(0,0,0,0.60);
+  filter: blur(2px);
+  z-index: 99;
+}
+.coach-content{
+  width: 512rpx;
+  z-index: 999;
+  position: absolute;
+  right: 0;
+  top: 684rpx;
+ 
+}
+.inp-box{
+  position: relative;
+  width: 100%;
+  height: 128rpx;
+}
+.inp-border{
+  width: 100%;
+  height: 128rpx;
+  background: #FF3E00;
+  opacity: .3;
+}
+.coach-number{
+  padding-left: 38rpx;
+  width: 510rpx;
+  height: 125rpx;
+  color: #fff;
+  font-size: 34rpx;
+  box-sizing: border-box;
+  border: 1px solid  #FF3E00;
+  position: absolute;
+  right:0;
+  top: 1rpx;
+  z-index: 99999;
+}
+
+.search-btn{
+  margin-top: 30rpx;
+  padding-left: 38rpx;
+  height: 96rpx;
+  line-height: 96rpx;
+  color: #fff;
+  font-size: 34rpx;
+  text-align: left;
+  background: #FF3E00;
+  border-radius: 0;
+}

@@ -1,0 +1,86 @@
+<!--pages/h06-artboard-4/h06-artboard-4.wxml-->
+<view class="main-content no-padding">
+    <view class="body-wakeup-user">
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/cat.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">陈广斌</span><i class="new-time pull-right">07月12日13:25</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><image src="../../images/heart.png" alt=""></image><span class="get-heart">点赞<span class="get-time">7月11日18:00</span>的课程</span></view>
+            </view>
+        </view>
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/flower.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">王萍萍</span><i class="new-time pull-right">07月12日12:47</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><span class="get-heart">点评<span class="get-time">7月11日19:00</span>的课程：</span></view>
+                <view class="comment-list">累死我了，今天起来腿可酸了，抬不来。张教练，咱们可以商量一下，降低点运动量么？</view>
+            </view>
+        </view>
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/plane.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">王萍萍</span><i class="new-time pull-right">07月12日09:32</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><span class="get-heart">点评<span class="get-time">7月11日13:00</span>的课程：</span></view>
+                <view class="comment-list clearfix">
+                    <view class="pic-list clearfix"><image src="../../images/help_pic.png" alt="" class="first pull-left"></image></view>
+                    <span>我的体重降到50公斤了呀，好开心啊，感谢我的教练，感谢CCTV</span>
+                </view>
+            </view>
+        </view>
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/cat.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">海龙</span><i class="new-time pull-right">07月11日13:25</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><image src="../../images/heart.png" alt=""></image><span class="get-heart">点赞<span class="get-time">7月10日18:00</span>的课程</span></view>
+            </view>
+        </view>
+        <view class="hide{{showView?'show':''}}" bindtap="onChangeShowState">
+          <view class="unred">
+            <p>还有<i>3</i>条未读消息</p>
+            <view class="pull"><image src="../../images/pull_down.png" alt=""></image></view>
+          </view>
+        </view>
+        <view class="hide{{showView?'':'show'}}">
+          <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/flower.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">王萍萍</span><i class="new-time pull-right">07月12日12:47</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><span class="get-heart">点评<span class="get-time">7月11日19:00</span>的课程：</span></view>
+                <view class="comment-list">累死我了，今天起来腿可酸了，抬不来。张教练，咱们可以商量一下，降低点运动量么？</view>
+            </view>
+        </view>
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/plane.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">王萍萍</span><i class="new-time pull-right">07月12日09:32</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><span class="get-heart">点评<span class="get-time">7月11日13:00</span>的课程：</span></view>
+                <view class="comment-list clearfix">
+                    <view class="pic-list clearfix"><image src="../../images/help_pic.png" alt="" class="first pull-left"></image></view>
+                    <span>我的体重降到50公斤了呀，好开心啊，感谢我的教练，感谢CCTV</span>
+                </view>
+            </view>
+        </view>
+        <view class="wakeup-user-list clearfix">
+            <view class="user-list-left pull-left">
+                <image src="../../images/cat.png" alt=""></image>
+            </view>
+             <view class="user-list-right pull-left">
+                <view class="about-list clearfix"><span class="app-name pull-left">海龙</span><i class="new-time pull-right">07月11日13:25</i><span class="new pull-right">［新］</span></view>
+                <view class="energy clearfix"><image src="../../images/heart.png" alt=""></image><span class="get-heart">点赞<span class="get-time">7月10日18:00</span>的课程</span></view>
+            </view>
+        </view>
+        </view>
+    </view>
+</view>

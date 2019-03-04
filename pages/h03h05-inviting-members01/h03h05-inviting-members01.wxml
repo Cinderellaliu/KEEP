@@ -1,0 +1,49 @@
+<!--pages/h03h05-inviting-members01/h03h05-inviting-members01.wxml-->
+<view class="change-pic grey-bg clearfix">
+  <view class="change-pic-top">
+    <image src="../../images/man01.png"></image>
+    <span class="choose-time">私人教练任同政有以下可预约时段：</span>
+  </view>
+  <view class="app-time clearfix">
+    <span class="app-body pull-left">身材觉醒</span>
+    <span class="app-provide pull-right">为您提供以下预约信息</span>  
+  </view>
+  <view class="about-app">
+    <view class="downloade">
+      下载身材觉醒教练端，专业教练即可以轻松管理课程安排，提高工作效率，加强会员服务的专业度。
+    </view>
+    <view class="bind-coach">
+     10月17日可供预约课程的时段
+    </view>
+  </view> 
+  <view class="time-slot">
+    09:00
+  </view> 
+  <view class="time-slot">
+    09:30
+  </view>
+  <view class="time-slot">
+    13:30
+  </view>
+  <view class="time-slot">
+    14:00
+  </view>
+  <view class="time-slot">
+    16:00
+  </view>
+  <view class="time-slot">
+    16:30
+  </view>
+  <view class="time-slot">
+    17:00
+  </view>
+  <view class="time-slot">
+    21:00
+  </view>
+  <view class="time-slot">
+    21:30
+  </view>
+  <navigator url="../h06-artboard-3/h06-artboard-3" class="time-slot continue">
+    立刻绑定任同政教练
+  </navigator>
+</view>

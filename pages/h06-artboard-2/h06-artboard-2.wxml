@@ -1,0 +1,41 @@
+<!--pages/h06-artboard-2/h06-artboard-2.wxml-->
+<view class="change-pic mian-content01 grey-bg clearfix">
+	<view class="change-pic-top pull-left">
+	  	<image src="../../images/smile_man.png"></image>
+	</view>
+	<view class="modify clearfix">
+		<navigator url='../h06-artboard-5/h06-artboard-5'><span class="pull-left">修改头像</span></navigator>
+	</view>	
+	<view class="infor-my infor-mar clearfix">
+        <span class="name-my pull-left">自由称呼</span>
+        <span class="oh-my pull-right"><input type="text" value="陈广斌" />
+        </span>
+    </view>
+    <view class="infor-my clearfix">
+        <span class="name-my pull-left">性别</span>
+        <span class="oh-my dis-my pull-right">
+        	<input type="text" value="男" />
+        </span>
+    </view>
+    <navigator url='../h06-artboard-3/h06-artboard-3'>
+      <view class="infor-my infor-mar clearfix">
+          <span class="name-my pull-left">我的教练</span>
+          <image src="../../images/go_right.png" class="go-right pull-right"></image>
+          <span class="oh-my dif-width pull-right"><input type="text" value="任同政" />   
+          </span>
+      </view>
+    </navigator>
+    <navigator url='../h06-artboard-4/h06-artboard-4'>
+      <view class="infor-my have-mar-bottom clearfix">
+        <span class="name-my pull-left">信息列表</span>
+        <image src="../../images/go_right.png" class="go-right pull-right"></image>
+        <span class="oh-my dis-my dif-width pull-right">
+          67<i>(2)</i>  
+        </span>
+      </view>
+    </navigator>
+</view>
+<view class="bottom-section clearfix">
+    <navigator class="active"><span><image src="../../images/bottom_color01.png"></image></span><p>课程安排</p></navigator>
+    <navigator url="../h06-artboard/h06-artboard"><span><image src="../../images/bottom_icon02.png"></image></span><p>我</p></navigator>
+</view>    

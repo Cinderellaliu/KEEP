@@ -1,0 +1,217 @@
+<!--pages/lesson_plan/lesson_plan.wxml-->
+<view class='lesson-top'>
+  <image src='../../images/lesson02.png'></image>
+  <view class='con-top'>
+    <text>陈广斌的健身历程</text>
+  </view>
+</view>
+<view class='lesson-btn bg-green'>立刻分享</view>
+<navigator url="../h06-artboard-5/h06-artboard-5"><view class='lesson-btn'>更换头像</view></navigator>
+<view class='lesson-tips'>
+  <span>陈广斌：<text class="grey-text">已完成21节，剩余33节</text></span>
+  <image src='../../images/up-img.png'></image>
+</view>
+<view class='date-box'>
+  <view class='date-top-box date-top-box01'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>日</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.08</text>
+          <text class="time">18:00~19:00</text>
+          <text class='thing'>增肌（胸、肩），拉伸</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/dianzan.png'></image><text>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='lesson-t clearfix'><text class='pull-left'>下一节课：</text><image src='../../images/next.png' class='pull-left'></image></view>
+  <view class='date-top-box'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>六</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.07</text>
+          <text class="time">18:00~19:00</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/dianzan.png'></image><text>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='lesson-t clearfix'><text class='pull-left'>过往课程：</text><image src='../../images/past.png' class='pull-left'></image></view>
+  <view class='date-top-box'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>六</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.07</text>
+          <text class="time">18:00~19:00</text>
+          <text class='thing'>增肌（腿、肱二头肌、肱三头肌），拉伸</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='clearfix comment'>
+        <view class='pull-left c-left'><image src='../../images/pinglun.png'></image></view>
+        <view class='pull-left c-right'>
+          <span>任同政教练：</span>
+          <span class='grey'></span>
+        </view>
+        <view class='photo-box clearfix'>
+          <view class='photo clearfix'>
+            <image src='../../images/bitmap.png' class='pull-left'></image>
+            <image src='../../images/bitmap2.png' class='pull-left'></image>
+            <image src='../../images/bitmap.png' class='pull-left no-margin'></image>
+          </view>
+        </view>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/shape.png'></image><text class='no-good'>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='date-top-box date-top-box01'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>六</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.07</text>
+          <text class="time">18:00~19:00</text>
+          <text class='thing'>增肌（背、核心肌群），拉伸</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='for-me'>
+        <image src='../../images/shape.png'></image>
+        <span>任同政教练<text>为我上课表现</text>点赞</span>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/dianzan.png'></image><text>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='date-top-box date-top-box01'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>六</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.07</text>
+          <text class="time">18:00~19:00</text>
+          <text class='thing'>增肌（背、核心肌群），拉伸</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='clearfix comment'>
+        <view class='pull-left c-left'><image src='../../images/pinglun.png'></image></view>
+        <view class='pull-left c-right'>
+          <span>任同政教练：</span>
+          <span class='grey'>说好了不练腿，但还是忍不住来了一发。这下好了，生活已完全不能……</span>
+        </view>
+      </view>
+      <view class='clearfix comment'>
+        <view class='pull-left c-left'><image src='../../images/pinglun.png'></image></view>
+        <view class='pull-left c-right'>
+          <span>我：</span>
+          <span class='grey'>说好了不练腿，但还是忍不住来了一发。这下好了，生活已完全不能……</span>
+        </view>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/dianzan.png'></image><text>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+  <view class='date-top-box date-top-box01'>
+    <view class='left'>
+      <image src='../../images/icon-bg.png'></image>
+      <text class='date'>六</text>
+    </view>
+    <view class='right'>
+      <view class='clearfix right-border'>
+        <view class='pull-left'>
+          <text class='num'>2018.07.07</text>
+          <text class="time">18:00~19:00</text>
+          <text class='thing'>增肌（背、核心肌群），拉伸</text>
+        </view>
+        <view class='pull-right right-arr'>
+          <image src='../../images/right-arrow02.png'></image>
+        </view>
+      </view>
+      <view class='clearfix comment'>
+        <view class='pull-left c-left'><image src='../../images/pinglun.png'></image></view>
+        <view class='pull-left c-right'>
+          <span>任同政教练：</span>
+          <span class='grey'>说好了不练腿，但还是忍不住来了一发。这下好了，生活已完全不能……</span>
+        </view>
+         <view class='photo-box clearfix'>
+          <view class='photo clearfix'>
+            <image src='../../images/bitmap.png' class='pull-left'></image>
+            <image src='../../images/bitmap2.png' class='pull-left'></image>
+            <image src='../../images/bitmap.png' class='pull-left no-margin'></image>
+          </view>
+        </view>
+      </view>
+      <view class='discuss clearfix'>
+        <view class='discuss-box discuss-box01 pull-left'><image src='../../images/dianzan.png'></image><text>点赞课程</text></view>
+        <view class="discuss-box pull-left hide{{showView?'show':''}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+         <view class="discuss-box pull-left hide{{showView?'':'show'}}" bindtap="onChangeShowState"><image src='../../images/dianping.png'></image><text>点评课程</text></view>
+        <view class='discuss-box pull-left'><image src='../../images/touxiang.png'></image><text>添加照片</text></view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="hide{{showView?'show':''}} upload">
+  <view class='bg-orange01'><text>任同政教练的课程评论</text></view>
+  <view class='up-padding'>
+    <textarea placeholder='给教练留个评价……'>
+    </textarea>
+    <image src="../../images/upload.png"></image>
+    <view class='border'>
+      <text>发表</text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+<!--pages/affirm/affirm.wxml-->
+<view class="affirm">
+  <view class='affirm-wrap'>
+    <view class='affirm-top'>
+      <navigator url="#" class="affirm-title">
+        <text class="txt">您的私人教练任同政</text>
+        <view class="go">
+          <text>121张</text>
+          <image src="../../images/affirm_go.png"></image>
+        </view>
+      </navigator>
+      <view class="affirm-icons">
+        <view class="affirm-icon">
+          <image src="../../images/affirm_icon01.png"></image>
+          <text class="txt">给你个赞</text>
+          <text class="num">231</text>
+        </view>
+        <view class="affirm-icon">
+          <image src="../../images/affirm_icon02.png"></image>
+          <text class="txt">求换头像</text>
+          <text class="num">103</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="affirm-info">
+    <view class="txt title">
+      <view class="name">陈广斌：</view>
+      <view class="num">已完成<text>21</text>节，剩余<text>33</text>节</view>
+    </view>
+    <view class="txt">
+      <picker mode="date" value="{{selectedProduceDate}}" start="2018年01月01日" end="2018年08月01日" filed="day" bindchange="dateChange">
+        <view>{{selectedProduceDate}}</view>
+      </picker>
+    </view>
+    <view class="txt">
+      <picker mode="time" value="{{time1}}" start="05:00" end="17:30" bindchange="changeTime" >
+         <text class="time-txt">开始时间</text><view class="tui-picker-detail">{{time1}}</view>
+      </picker>
+    </view>
+    <view class="txt">
+      <picker mode="time" value="{{time2}}" start="06:00" end="17:30" bindchange="changeTime2" >
+        <text class="time-txt">结束时间</text><view class="tui-picker-detail">{{time2}}</view>
+      </picker>
+    </view>
+  </view>
+  <view class="affirm-btn">
+    <navigator url="../apply/apply"><button>申请新课程</button></navigator>
+  </view>
+</view>

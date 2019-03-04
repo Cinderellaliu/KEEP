@@ -1,0 +1,16 @@
+<!--pages/bind01/bind01.wxml-->
+<view class='coach-bg'>
+  <image src='../../images/coach.png'></image>
+  <view class='border-right'>
+    <view class='right-box'>
+       
+    </view>
+  </view>
+  <view class='coach-content'>
+    <view class='inp-box'>
+      <view class='inp-border'></view>
+      <input type='text' class='coach-number' placeholder='请输入您教练的手机号码' placeholder-style='color:#FAB3A0' />
+    </view>
+    <navigator url="../bind02/bind02"><button class='search-btn'>立刻查找我的私人教练</button></navigator>
+  </view>
+</view>

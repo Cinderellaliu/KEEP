@@ -1,0 +1,103 @@
+<!--pages/h06-artboard-5/h06-artboard-5.wxml-->
+<view class="main-content main-have-bo hist-img no-padding">
+    <view class="history-lis clearfix">
+        <view class="history-pic">
+            2018.07
+        </view>
+        <view class="list-his pull-left">
+            <view class="man-list1">
+                <image src="../../images/bit.png" alt="" class="man-list01"></image>
+                <image src="../../images/give_zan.png" alt="" class="x-dis"></image>
+            </view>
+            <view class="list-zan pull-left">
+                <view class="left-zan">
+                    <image src="../../images/fabulous.png" alt=""></image>
+                    <span>231</span>
+                </view>
+            </view>
+            <view class="list-batch pull-left">
+                <view class="left-zan">
+                    <image src="../../images/batch.png" alt=""></image>
+                    <span>121</span>
+                </view>
+            </view>
+        </view>
+        <view class="list-his pull-left">
+            <view class="man-list1">
+                <image src="../../images/lun.png" alt="" class="man-list01"></image>
+                <image src="../../images/give_zan.png" alt="" class="x-dis"></image>
+            </view>
+            <view class="list-zan pull-left">
+                <view class="left-zan">
+                    <image src="../../images/fabulous.png" alt=""></image>
+                    <span>231</span>
+                </view>
+            </view>
+            <view class="list-batch pull-left">
+                <view class="left-zan">
+                    <image src="../../images/batch.png" alt=""></image>
+                    <span>121</span>
+                </view>
+            </view>
+        </view>
+        <view class="list-his pull-left">
+            <view class="man-list1">
+                <image src="../../images/zan.png" alt="" class="man-list01"></image>
+                <image src="../../images/give_zan.png" alt="" class="x-dis"></image>
+            </view>
+            <view class="list-zan pull-left">
+                <view class="left-zan">
+                    <image src="../../images/fabulous.png" alt=""></image>
+                    <span>231</span>
+                </view>
+            </view>
+            <view class="list-batch pull-left">
+                <view class="left-zan">
+                    <image src="../../images/batch.png" alt=""></image>
+                    <span>121</span>
+                </view>
+            </view>
+        </view>
+    </view>
+    <view class="history-lis clearfix">
+        <view class="history-pic">
+            2018.06
+        </view>
+        <view class="list-his pull-left">
+            <view class="man-list1">
+                <image src="../../images/bit.png" alt="" class="man-list01"></image>
+                <image src="../../images/give_zan.png" alt="" class="x-dis"></image>
+            </view>
+            <view class="list-zan pull-left">
+                <view class="left-zan">
+                    <image src="../../images/fabulous.png" alt=""></image>
+                    <span>231</span>
+                </view>
+            </view>
+            <view class="list-batch pull-left">
+                <view class="left-zan">
+                    <image src="../../images/batch.png" alt=""></image>
+                    <span>121</span>
+                </view>
+            </view>
+        </view>
+        <view class="list-his pull-left">
+            <view class="man-list1">
+                <image src="../../images/lun.png" alt="" class="man-list01"></image>
+                <image src="../../images/give_zan.png" alt="" class="x-dis"></image>
+            </view>
+            <view class="list-zan pull-left">
+                <view class="left-zan">
+                    <image src="../../images/fabulous.png" alt=""></image>
+                    <span>231</span>
+                </view>
+            </view>
+            <view class="list-batch pull-left">
+                <view class="left-zan">
+                    <image src="../../images/batch.png" alt=""></image>
+                    <span>121</span>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

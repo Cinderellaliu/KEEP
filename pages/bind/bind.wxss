@@ -1,0 +1,30 @@
+/* pages/bind/bind.wxss */
+view{
+  box-sizing: content-box;
+}
+page{
+  background-color:#E8E8E8;
+}
+.big-bg{
+  display: block;
+  width: 100%;
+  min-height: 100%;
+  overflow: hidden;
+}
+.bind-title{
+  margin: 146rpx 0 20rpx 0;
+  padding-left: 40rpx;
+}
+.bind-title text{
+  color: #6D6D72;
+  font-size: 26rpx;
+}
+.bind-ewm{
+  padding:20rpx 0 20rpx 40rpx;
+  height: 180rpx;
+  background: #fff;
+}
+.bind-ewm image{
+  width: 180rpx;
+  height: 180rpx;
+}

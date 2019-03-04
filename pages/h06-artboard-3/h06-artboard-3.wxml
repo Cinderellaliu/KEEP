@@ -1,0 +1,46 @@
+<!--pages/h06-artboard-3/h06-artboard-3.wxml-->
+<view class="change-pic mian-content01 grey-bg clearfix">
+	<view class="change-pic-top pull-left">
+	  	<image src="../../images/man01.png"></image>
+	</view>	
+	<view class="infor-my clearfix">
+        <span class="name-my pull-left">教练姓名</span>
+        <span class="oh-my dis-my pull-right"><input type="text"  value="任同政" />
+        </span>
+    </view>
+    <view class="infor-my dis-my clearfix">
+        <span class="name-my pull-left">性别</span>
+        <span class="oh-my dis-my pull-right">
+        	<input type="text" value="男" />
+        </span>
+    </view>
+    <navigator url="../h06-artboard-5/h06-artboard-5">
+      <view class="infor-my dis-my clearfix">
+          <span class="name-my pull-left">相册</span>
+          <image src="../../images/go_right.png" class="go-right pull-right"></image>
+          <span class="oh-my dis-my dif-width pull-right">
+            <input type="text" value="271" />  
+          </span>
+      </view>
+    </navigator>
+    <view class="infor-my infor-mar clearfix">
+        <span class="name-my pull-left">手机号码</span>
+        <span class="oh-my dis-my pull-right"><input type="text" value="18601357693" />   
+        </span>
+    </view>
+    <view class="infor-my infor-mar clearfix">
+        <span class="name-my pull-left">身高</span>
+        <span class="oh-my dis-my pull-right"><input type="text" value="---" />   
+        </span>
+    </view>
+    <view class="infor-my clearfix">
+        <span class="name-my pull-left">体重</span>
+        <span class="oh-my dis-my pull-right"><input type="text" value="---" />   
+        </span>
+    </view>
+    <navigator url="../h03h05-inviting-members/h03h05-inviting-members">
+      <view class="undo infor-mar">
+        <button>解除绑定</button>    
+      </view>
+    </navigator>
+</view>

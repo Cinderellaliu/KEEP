@@ -1,0 +1,167 @@
+/* pages/h06-artboard-4/h06-artboard-4.wxss */
+view,text{
+	box-sizing:border-box;
+}
+.grey-bg{background:#e8e8e8;}
+.pull-left{float:left!important;}
+.pull-right{float:right!important;}
+.clearfix{clear:both;overflow:hidden;}
+.body-wakeup-user{
+	border-top:1rpx solid #dbdada;
+	border-left:none;
+	border-right:none;
+}
+.user-list-left{
+	padding-left:56rpx;
+	width:248rpx;
+}
+.user-list-left image{
+	border-radius:20rpx;
+	margin-top:20rpx;
+  height:136rpx;
+  width:136rpx;
+}
+.user-list-right{
+	padding-right:34rpx;
+	width:calc(100% - 248rpx);
+}
+.app-name{
+	font-size:36rpx;
+	color:#000;
+	margin-top:24rpx;
+}
+.set-top{
+	font-size:26rpx;
+	color:#d0021b;
+	margin-top:40rpx;
+}
+.tou-feedback{
+	font-size:26rpx;
+	color:#9b9b9b;
+	margin-top:10rpx;
+}
+.about-coach{
+	margin-top:34rpx;
+}
+.about-coach-left{
+	margin-right:3%;
+	width:18%;
+	position:relative;
+}
+.about-coach-right{
+	width:55%;
+}
+.change-tou{
+	font-size:20rpx;
+	color:#fff;
+	opacity:0.8;
+	text-align:center;
+	position:absolute;
+	left:0;
+	bottom:0;
+	background:rgba(0,0,0,0.60);
+	width:100%;
+	line-height:36rpx;
+}
+.about-coach-right image{
+	width:5%;
+	margin-right:5%;
+	margin-top:5rpx;
+}
+.about-coach-right .coach{
+	width:87%;
+	border-bottom:2px solid #f1f1f1;
+	padding-bottom:20rpx;
+	margin-top:34rpx;
+}
+.about-coach-right .zan-num{
+	color:#000000;
+	font-size:30rpx;
+	letter-spacing:0;
+}
+.coach-batch{
+	margin-top:26rpx;
+}
+.wakeup-user-list{
+	background:#fff;
+	padding-bottom:54rpx;
+	border-bottom:1px solid #e3e3e3;
+}
+.user-list-right .new{
+	color:#d0021b;
+	font-size:26rpx;
+	margin-top:40rpx;
+	letter-spacing:0;
+}
+.user-list-right .new-time{
+	color:#9b9b9b;
+	font-size:26rpx;
+	margin-top:40rpx;
+	letter-spacing:0;
+}
+.user-list-right .energy{
+	margin-top:4rpx;
+}
+.user-list-right .energy image{
+	width:2%;
+	margin-right:12rpx;
+}
+.user-list-right .energy .get-heart{
+	color:#9b9b9b;
+	font-size:24rpx;
+}
+.user-list-right .energy .get-time{
+	color:#000;
+}
+.wakeup-user-list .comment-list{
+	font-size:24rpx;
+	color:#000;
+	margin-top:4rpx;
+}
+.wakeup-user-list .comment-list span{
+	display:block;
+	margin-top:12rpx;
+}
+.wakeup-user-list .comment-list image.first{
+	width:268rpx;
+	height:180rpx;
+	margin-right:1%;
+}
+.wakeup-user-list .comment-list .pic-list{
+	margin-top:28rpx;
+}
+.body-wakeup-user .unred{
+	text-align:center;
+	font-size:28rpx;
+	color:#000;
+	padding:7rpx 0;
+	background:#ffebc1;
+	border:1rpx solid #e2cba7;
+	border-left:none;
+	border-right:none;
+}
+.body-wakeup-user .unred i{
+	color:#d1051d;
+}
+.body-wakeup-user .unred .pull{
+	margin:4rpx 0;
+}
+.body-wakeup-user .unred .pull image{
+	height:20rpx;
+	width:20rpx;
+}
+.hide{
+ display: none;
+}
+.show{ 
+ display: block;
+}
+.bottom-section>a>i.dot-here{
+	height:22rpx;
+	width:22rpx;
+	right:45%;
+}
+.user-list-right .energy image{
+  height:18rpx;
+  width:22rpx;
+  }
